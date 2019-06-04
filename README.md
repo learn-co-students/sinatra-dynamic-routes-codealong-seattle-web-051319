@@ -156,7 +156,7 @@ template, create the following two routes:
 
 - `get '/goodbye/:name`, a dynamic route that returns
   `"Goodbye, (person's name)."`, a string. For example, navigating to
-  `localhost:9393/goodbye/jerome` should display `Goodbye, jerome.`
+  `/goodbye/jerome` should display `Goodbye, jerome.`
 
 - A dynamic route starting with `/multiply` that accepts two params (num1 and
   num2) and returns the product of the two numbers.
